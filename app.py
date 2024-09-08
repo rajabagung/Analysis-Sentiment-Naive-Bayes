@@ -17,9 +17,9 @@ def clean_csv(input_file, output_file):
                 st.write(f"Skipping line due to error: {e}")
 
 # Load and clean data
-clean_csv("Train.csv", "data/Cleaned_Train.csv")
-clean_csv("Valid.csv", "data/Cleaned_Valid.csv")
-clean_csv("Test.csv", "data/Cleaned_Test.csv")
+# clean_csv("Train.csv", "data/Cleaned_Train.csv")
+# clean_csv("Valid.csv", "data/Cleaned_Valid.csv")
+# clean_csv("Test.csv", "data/Cleaned_Test.csv")
 
 # Load pre-cleaned datasets or allow users to upload their datasets
 def load_data():
